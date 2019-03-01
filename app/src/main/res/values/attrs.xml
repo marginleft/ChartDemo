@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PieGraph">
+        <attr name="pieRadius" format="dimension"/>
+        <attr name="pieInnerRadius" format="dimension"/>
+        <attr name="pieTextSize" format="dimension"/>
+        <attr name="pointRadius" format="dimension"/>
+        <attr name="pointMargin" format="dimension"/>
+        <attr name="brokenLineWidth" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="LineGraph">
+        <attr name="lineStrokeColor" format="color"/>
+        <attr name="lineAxisColor" format="color"/>
+        <attr name="lineStrokeWidth" format="dimension"/>
+        <attr name="lineStrokeSpacing" format="dimension"/>
+        <attr name="lineUseDip" format="boolean"/>
+        <attr name="lineBackground" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="PieChartView">
+        <attr name="circleRadius" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="exampleDrawable" format="color|reference"/>
+    </declare-styleable>
+
+</resources>
